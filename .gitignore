@@ -1,0 +1,31 @@
+# NinjaTrader auto-generated/compiled
+NinjaTrader.Custom.cs
+bin/
+obj/
+
+# Visual Studio / VSCode miscellany
+.vs/
+.vscode/
+*.user
+*.suo
+
+# Backups / temp
+*.bak
+*.tmp
+*.log
+
+# Don’t commit NinjaTrader program DLLs (only commit external libs you own)
+*.dll
+!lib/*.dll
+
+# Platform state you usually don’t want in a code repo
+# (comment these out if you *do* want to track them in a separate repo)
+# ../../.. = Documents\NinjaTrader 8
+# Adjust if your repo root is elsewhere
+../../../workspaces/
+../../../templates/
+../../../replay/
+../../../db/
+../../../log/
+../../../cache/
+../../../Documents/
